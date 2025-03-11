@@ -142,7 +142,7 @@ layers:
   - '9'
   - +
   - '-'
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - INS
   - PSCRN
   - {t: ▽, type: trans}
@@ -155,9 +155,9 @@ layers:
   - KP MULTIPLY
   - KP DIVIDE
   - {t: ▽, type: trans}
-  - LALT
+  - Ctl+A
   - Ctl+S
-  - LSHFT
+  - Ctl+D
   - Ctl+F
   - CLCK
   - PG DN
@@ -179,21 +179,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
-  - A
-  - B
-  - C
-  - D
-  - E
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
