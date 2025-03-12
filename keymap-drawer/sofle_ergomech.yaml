@@ -49,7 +49,7 @@ layers:
   - /
   - \
   - MUTE
-  - LSHIFT
+  - DELETE
   - LALT
   - LCTRL
   - LEFT SHIFT
