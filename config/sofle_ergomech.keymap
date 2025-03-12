@@ -85,12 +85,12 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE   &kp N1      &kp N2    &kp N3     &kp N4         &kp N5  &kp N6     &kp N7     &kp N8        &kp N9    &kp N0    &kp EQUAL
-&kp ESC     &kp Q       &kp W     &kp E      &kp R          &kp T   &kp Y      &kp U      &kp I         &kp O     &kp P     &kp MINUS
-&kp TAB     &kp A       &kp S     &kp D      &kp F          &kp G   &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
-&kp CAPS    &kp Z       &kp X     &kp C      &kp V          &kp B   &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp BACKSLASH
-&kp C_MUTE  &kp LSHIFT  &kp LALT  &kp LCTRL  &kp BACKSPACE  &tog 2  &kp ENTER  &kp SPACE  &kp RSHIFT    &kp LBKT  &kp RBKT
-                                                                    &kp ENTER  &kp RIGHT  &kp UP_ARROW  &kp LEFT  &kp DOWN
+&kp GRAVE   &kp N1      &kp N2    &kp N3     &kp N4          &kp N5  &kp N6         &kp N7     &kp N8        &kp N9    &kp N0    &kp EQUAL
+&kp ESC     &kp Q       &kp W     &kp E      &kp R           &kp T   &kp Y          &kp U      &kp I         &kp O     &kp P     &kp MINUS
+&kp TAB     &kp A       &kp S     &kp D      &kp F           &kp G   &kp H          &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
+&kp CAPS    &kp Z       &kp X     &kp C      &kp V           &kp B   &kp N          &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp BACKSLASH
+&kp C_MUTE  &kp LSHIFT  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &tog 2  &kp BACKSPACE  &kp SPACE  &kp ENTER     &kp LBKT  &kp RBKT
+                                                                     &kp ENTER      &kp RIGHT  &kp UP_ARROW  &kp LEFT  &kp DOWN
             >;
 
             sensor-bindings =
@@ -137,8 +137,8 @@
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp HOME   &kp N7  &kp N8    &kp N9    &kp PLUS         &kp MINUS
 &studio_unlock  &kp INS       &kp PSCRN     &trans        &trans        &trans        &kp PG_UP  &kp N4  &kp N5    &kp N6    &kp KP_MULTIPLY  &kp KP_DIVIDE
 &trans          &kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &trans        &kp PG_DN  &kp N1  &kp N2    &kp N3    &kp DEL          &kp BSPC
-&trans          &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &kp END    &kp N0  &kp UP    &trans    &trans           &trans
-&trans          &trans        &trans        &trans        &kp SPACE     &to 0         &trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT
+&trans          &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &kp END    &kp N0  &kp UP    &trans    &kp ENTER        &trans
+&trans          &trans        &trans        &trans        &trans        &to 0         &trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT
                                                                                       &trans     &trans  &trans    &trans    &trans
             >;
 
