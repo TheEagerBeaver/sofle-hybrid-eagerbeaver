@@ -48,14 +48,14 @@ layers:
   - .
   - /
   - \
-  - MUTE
+  - SLEEP MODE
   - DELETE
   - LALT
   - LCTRL
-  - LEFT SHIFT
+  - {t: SPACE, h: LEFT SHIFT}
   - {t: Num+Utility, h: toggle}
   - BACKSPACE
-  - SPACE
+  - {t: SPACE, h: RIGHT SHIFT}
   - ENTER
   - '['
   - ']'
@@ -175,8 +175,8 @@ layers:
   - END
   - '0'
   - UP
-  - {t: ▽, type: trans}
   - ENTER
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
