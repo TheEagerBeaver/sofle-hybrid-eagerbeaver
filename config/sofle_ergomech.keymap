@@ -138,7 +138,7 @@
 &studio_unlock  &kp INS       &kp PSCRN     &trans        &trans        &trans        &kp PG_UP  &kp N4  &kp N5    &kp N6     &kp KP_MULTIPLY  &kp KP_DIVIDE
 &trans          &kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &trans        &kp PG_DN  &kp N1  &kp N2    &kp N3     &kp DEL          &kp BSPC
 &trans          &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &kp END    &kp N0  &kp UP    &kp ENTER  &trans           &trans
-&trans          &tog 0        &trans        &trans        &trans        &trans        &trans     &trans  &kp LEFT  &kp DOWN   &kp RIGHT
+&trans          &to 0         &trans        &trans        &trans        &trans        &trans     &trans  &kp LEFT  &kp DOWN   &kp RIGHT
                                                                                       &trans     &trans  &trans    &trans     &trans
             >;
 
