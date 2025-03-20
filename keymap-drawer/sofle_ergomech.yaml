@@ -141,13 +141,13 @@ layers:
   - '7'
   - '8'
   - '9'
-  - +
   - '-'
+  - +
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - Gui+Sft+S
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+Z
   - {t: ▽, type: trans}
   - PG UP
   - '4'
@@ -176,9 +176,9 @@ layers:
   - END
   - '0'
   - UP
+  - .
+  - {t: ▽, type: trans}
   - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
