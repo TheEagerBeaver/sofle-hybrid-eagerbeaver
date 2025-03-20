@@ -131,12 +131,12 @@ layers:
   - HOME
   - PAGE DOWN
   Num+Utility:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - '7'
   - '8'
@@ -144,8 +144,8 @@ layers:
   - +
   - '-'
   - '&studio_unlock'
-  - INS
-  - PSCRN
+  - {t: ▽, type: trans}
+  - Gui+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -160,7 +160,7 @@ layers:
   - Ctl+S
   - Ctl+D
   - Ctl+F
-  - {t: ▽, type: trans}
+  - Ctl+G
   - PG DN
   - '1'
   - '2'
