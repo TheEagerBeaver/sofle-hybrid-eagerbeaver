@@ -49,7 +49,7 @@ layers:
   - .
   - /
   - \
-  - SLEEP MODE
+  - Ctl+0
   - {t: Num+Utility, h: toggle}
   - LALT
   - LCTRL
@@ -138,9 +138,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - '7'
-  - '8'
-  - '9'
+  - KP 7
+  - KP 8
+  - KP 9
   - '-'
   - +
   - '&studio_unlock'
@@ -150,9 +150,9 @@ layers:
   - Ctl+Sft+Z
   - {t: ▽, type: trans}
   - PG UP
-  - '4'
-  - '5'
-  - '6'
+  - KP 4
+  - KP 5
+  - KP 6
   - KP MULTIPLY
   - KP DIVIDE
   - {t: ▽, type: trans}
@@ -162,9 +162,9 @@ layers:
   - Ctl+F
   - Ctl+G
   - PG DN
-  - '1'
-  - '2'
-  - '3'
+  - KP 1
+  - KP 2
+  - KP 3
   - DEL
   - BSPC
   - {t: ▽, type: trans}
@@ -174,7 +174,7 @@ layers:
   - Ctl+V
   - {t: ▽, type: trans}
   - END
-  - '0'
+  - KP 0
   - UP
   - .
   - {t: ▽, type: trans}
